@@ -1,1 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title> Green Farm</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="head-t">
+    <ul class="card">
+      <li><a href="wishlist.html" >Wishlist</a></li>
+      <li><a href="login.html" >Login</a></li>
+      <li><a href="register.html" >Register</a></li>
+      <li><a href="orderh.html" >Order History</a></li>
+      <li><a href="shipping.html" >Delivery</a></li>
+    </ul>
+  </div>
+
+<nav>
+        <li><a href="fruitspage">Fruits</a></li>
+        <li><a href="veggiepage">Vegetables</a></li>
+        <li><a href="greenpage">Green Products<</a></li>
+        <li><a href="farmers">Our Farmers</a></li>
+        <li><a href="contact">Contact Us</a></li>
+    </nav>
+
+
+
+</body>
+<div class="footer">
+
+
+			<h3>About Us</h3>
+      <p> White Hats .... </p>
+
+
+			<h3>Menu</h3>
+
+      <ul>
+				<li><a href="index.html">Home</a></li>
+        <li><a href="fruitspage">Fruits</a></li>
+				<li><a href="veggiepage.html">Vegetables</a> </li>
+				<li><a href="greenpage.html">Green Products</a></li>
+				<li><a href="farmers.html">Short Codes</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+
+		</div>
+		<div class="footer-grid ">
+			<h3>Customer Services</h3>
+			<ul>
+
+      	<li><a href="shipping.html">Delivery</a></li>
+				<li><a href="terms.html">Terms & Conditions</a></li>
+				<li><a href="faqs.html">Faqs</a></li>
+
+    	</ul>
+
+		</div>
+		<div class="footer-grid">
+
+      <h3>My Account</h3>
+			<ul>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="wishlist.html">Wishlist</a></li>
+			</ul>
+
+</html>
 
