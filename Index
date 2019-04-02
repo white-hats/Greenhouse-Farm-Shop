@@ -6,6 +6,12 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
+	<div class="header">  
+		<div class="logo">
+				<h1 ><a href="index.html"><b>T<br>H<br>E</b> Green Farm<span>The Best GreenGrocery</span></a></h1>
+			</div>
+ 
+  
   <div class="head-t">
     <ul class="card">
       <li><a href="wishlist.html" >Wishlist</a></li>
@@ -19,13 +25,22 @@
 <nav>
         <li><a href="fruitspage">Fruits</a></li>
         <li><a href="veggiepage">Vegetables</a></li>
-        <li><a href="greenpage">Green Products<</a></li>
+        <li><a href="greenpage">Green Products</a></li>
         <li><a href="farmers">Our Farmers</a></li>
         <li><a href="contact">Contact Us</a></li>
     </nav>
+	
+		<div class="search-form">
+				<form action="#" method="post">
+					<input type="text" placeholder="Search..." name="Search...">
+					<input type="submit" value=" " >
+				</form>
+			</div>
+<div class="container ">
 
+</div>
 
-
+</div>
 </body>
 <div class="footer">
 
@@ -67,4 +82,3 @@
 			</ul>
 
 </html>
-
