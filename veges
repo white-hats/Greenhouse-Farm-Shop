@@ -1,0 +1,843 @@
+<!--
+Author: White Hats
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vegetables</title>
+</head>
+<body>
+<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+<div class="header">
+
+		<div class="container">
+
+			<div class="logo">
+				<h1><a href="file:///C:/Users/User/Desktop/Green%20Farm/index.html"><b>T<br>H<br>E</b> Green Farm<span>The Best GreenGrocery</span></a></h1>
+			</div>
+			<div class="head-t">
+				<ul class="card">
+					<li></li>
+					<li><a href="login.html"><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+					<li><a href="register.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
+					<li><a href="about.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
+					<li><a href="shipping.html"><i class="fa fa-ship" aria-hidden="true"></i>Delivery</a></li>
+				</ul>
+			</div>
+
+
+
+
+					<div class="cart" style="
+    padding-left: 100px;
+">
+
+						<span class="fa fa-shopping-cart my-cart-icon" style="position: absolute; background-color: inherit; z-index: 999;"><span class="badge badge-notify my-cart-badge">7</span></span>
+					</div><div class="nav-top">
+					<nav class="navbar navbar-default" style="
+    width: 700px;
+    padding-right: 40px;
+">
+
+					<div class="navbar-header nav_2">
+						<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+
+					</div>
+					<div class="collapse navbar-collapse" style="
+    width: 1080px;
+">
+						<ul class="nav navbar-nav ">
+							<li class="" style="
+    padding-right: 70px;
+"><a href="index.html" class="hyper "><span>Home</span></a></li>
+              <li class="" style="
+    padding-right: 70px;
+"><a href="fruits.html" class="hyper "><span>Fruits</span></a></li>
+              <li class="active" style="
+    padding-right: 70px;
+"><a href="veges.html" class="hyper "><span>Vegetables</span></a></li>
+              <li class="" style="
+              padding-right: 70px;
+"><a href="offer.html" class="hyper "><span>Legumes and Grains</span></a></li>
+              <li class="
+"><a href="hold.html" class="hyper "><span>Our Farmers</span></a></li>
+              </ul>
+
+			</div></nav></div>
+
+
+				</div>
+
+
+					<div class="clearfix"></div>
+
+
+
+</div>
+  <!---->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+         <a><img class="first-slide" src="images/vegesbanner.jpg" alt="First slide"></a>
+
+      </div>
+      <div class="item">
+        <a> <img class="second-slide " src="images/vegesbanner1.jpg" alt="Second slide"></a>
+
+      </div>
+      <div class="item">
+         <a><img class="third-slide " src="images/vegesbanner2.jpg" alt="Third slide"></a>
+
+      </div>
+    </div>
+
+  </div><!-- /.carousel -->
+
+<!--content-->
+<div class="kic-top ">
+	<div class="container ">
+	<div class="kic ">
+			<h3>Popular Categories</h3>
+
+		</div>
+		<div class="col-md-4 kic-top1">
+			<a href="#leafy">
+				<img src="images/ki3.jpg" class="img-responsive" alt="">
+			</a>
+			<h6>Leafy Vegetables</h6>
+		</div>
+		<div class="col-md-4 kic-top1">
+			<a href="#root">
+				<img src="images/ki4.jpg" class="img-responsive" alt="">
+			</a>
+			<h6>Root Vegetables</h6>
+		</div>
+	</div>
+</div>
+
+<!--content-->
+
+  <div class="product">
+  <div class="container">
+    <div class="spec ">
+      <h3>Most Sold Products</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+      <div class=" con-w3l agileinf">
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+                  <img src="images/of36.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Lettuce</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="36" data-name="Baby Oil" data-summary="summary 36" data-price="6.00" data-quantity="1" data-image="images/of36.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+                  <img src="images/beans.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Beans</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="37" data-name="Soap" data-summary="summary 37" data-price="4.50" data-quantity="1" data-image="images/of37.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+                  <img src="images/cabbage.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Cabbage</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="38" data-name="Hair Gel" data-summary="summary 38" data-price="3.50" data-quantity="1" data-image="images/of38.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+                  <img src="images/onions.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Onions</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="39" data-name="Lotion" data-summary="summary 39" data-price="0.80" data-quantity="1" data-image="images/of39.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+                  <img src="images/tomatoes.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Tomatoes</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="40" data-name="Shower Gel" data-summary="summary 40" data-price="6.00" data-quantity="1" data-image="images/of40.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+                  <img src="images/carrot.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Carrot</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="41" data-name="Hair Color" data-summary="summary 41" data-price="4.50" data-quantity="1" data-image="images/of41.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+                  <img src="images/greenpepper.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Green Pepper</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="42" data-name="Wipes" data-summary="summary 42" data-price="3.50" data-quantity="1" data-image="images/of42.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+                  <img src="images/pepper.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Red Pepper</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="43" data-name="Essential Oils" data-summary="summary 43" data-price="0.80" data-quantity="1" data-image="images/of43.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+                  <img src="images/Cauliflower.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">White Cauliflower</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="44" data-name="Cream" data-summary="summary 44" data-price="6.00" data-quantity="1" data-image="images/of44.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+                  <img src="images/Eggplant.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Eggplant</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="45" data-name="Hair Color" data-summary="summary 45" data-price="4.50" data-quantity="1" data-image="images/of45.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
+                  <img src="images/Potato.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Potato</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="46" data-name="Baby Care" data-summary="summary 46" data-price="3.50" data-quantity="1" data-image="images/of46.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+                  <img src="images/peas.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Green Peas</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="47" data-name="Lotion" data-summary="summary 47" data-price="0.80" data-quantity="1" data-image="images/of47.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+           </div>
+  </div>
+  </div>
+
+  <div class="product">
+  <div class="container">
+      <a id="leafy"></a>
+    <div class="spec ">
+      <h3>Leafy Vegetables</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+      <div class=" con-w3l agileinf">
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+                  <img src="images/of36.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Lettuce</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="36" data-name="Baby Oil" data-summary="summary 36" data-price="6.00" data-quantity="1" data-image="images/of36.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+                  <img src="images/spinach.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Spinach</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="37" data-name="Soap" data-summary="summary 37" data-price="4.50" data-quantity="1" data-image="images/of37.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+                  <img src="images/cabbage.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Cabbage</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="38" data-name="Hair Gel" data-summary="summary 38" data-price="3.50" data-quantity="1" data-image="images/of38.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+                  <img src="images/broccoli.webp" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">broccoli</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="39" data-name="Lotion" data-summary="summary 39" data-price="0.80" data-quantity="1" data-image="images/of39.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+                  <img src="images/asparagus.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Asparagus</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="40" data-name="Shower Gel" data-summary="summary 40" data-price="6.00" data-quantity="1" data-image="images/of40.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+                  <img src="images/kale.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Kale</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="41" data-name="Hair Color" data-summary="summary 41" data-price="4.50" data-quantity="1" data-image="images/of41.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+                  <img src="images/watercress.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Water Cress</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="42" data-name="Wipes" data-summary="summary 42" data-price="3.50" data-quantity="1" data-image="images/of42.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+                  <img src="images/Cauliflower.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">White Cauliflower</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="44" data-name="Cream" data-summary="summary 44" data-price="6.00" data-quantity="1" data-image="images/of44.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+           </div>
+  </div>
+  </div>
+
+  <div class="product">
+  <div class="container">
+      <a id="root"></a>
+    <div class="spec ">
+      <h3>Root Vegetables</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+      <div class=" con-w3l agileinf">
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+                  <img src="images/carrot.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Carrot</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="36" data-name="Baby Oil" data-summary="summary 36" data-price="6.00" data-quantity="1" data-image="images/of36.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+                  <img src="images/onions.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Onions</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="37" data-name="Soap" data-summary="summary 37" data-price="4.50" data-quantity="1" data-image="images/of37.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+                  <img src="images/sweetpotato.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Sweet Potatoes</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="38" data-name="Hair Gel" data-summary="summary 38" data-price="3.50" data-quantity="1" data-image="images/of38.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+                  <img src="images/turnips.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Turnips</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="39" data-name="Lotion" data-summary="summary 39" data-price="0.80" data-quantity="1" data-image="images/of39.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+                  <img src="images/ginger.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Ginger</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="40" data-name="Shower Gel" data-summary="summary 40" data-price="6.00" data-quantity="1" data-image="images/of40.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+                  <img src="images/beets.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Beets</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="41" data-name="Hair Color" data-summary="summary 41" data-price="4.50" data-quantity="1" data-image="images/of41.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+                  <img src="images/potato.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Potatoes</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="42" data-name="Wipes" data-summary="summary 42" data-price="3.50" data-quantity="1" data-image="images/of42.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+                  <img src="images/Celeriac.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">celeriac</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="43" data-name="Essential Oils" data-summary="summary 43" data-price="0.80" data-quantity="1" data-image="images/of43.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 pro-1">
+              <div class="col-m">
+              <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+                  <img src="images/fennel.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Fennel</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="44" data-name="Cream" data-summary="summary 44" data-price="6.00" data-quantity="1" data-image="images/of44.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 pro-1">
+              <div class="col-m">
+                <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+                  <img src="images/radish.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="mid-1">
+                  <div class="single">
+                    <h6><a href="single.html">Radish</a></h6>
+                  </div>
+                  <div class="mid-2">
+                    <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+                      <div class="block">
+                      <div class="starbox small ghosting"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                    <div class="add">
+                     <button class="btn btn-danger my-cart-btn my-cart-b" data-id="45" data-name="Hair Color" data-summary="summary 45" data-price="4.50" data-quantity="1" data-image="images/of45.png">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+           </div>
+  </div>
+</div>
