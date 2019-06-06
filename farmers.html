@@ -1,0 +1,104 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="heading">
+  <h1 class="font-size--xxl f--title m0 mt2 px2 text-align--center"
+  style="padding-top:100px;">Our Farmers</h1>
+  <hr class="rule bg--main-accent my3 mx--auto">
+  <h2 style="text-align: center;padding-bottom:100px">
+    <span>Meet our farmers, and get acquainted with your food.</span><span> </span></h2>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a><img class="first-slide" src="{{ url_for('static', filename='images/slide1.jpg')}}" alt="First slide"></a>
+      </div>
+      <div class="item">
+        <a> <img class="second-slide " src="{{ url_for('static', filename='images/slide2.jpg')}}" alt="Second slide"></a>
+      </div>
+      <div class="item">
+        <a><img class="third-slide " src="{{ url_for('static', filename='img/image5.jpg')}}" alt="Third slide"></a>
+      </div>
+    </div>
+  </div><!-- /.carousel -->
+</div>
+<!---->
+
+<div id="container" style="
+padding-bottom: 200px;
+padding-top: 200px;
+height: 100px;
+width: 700px;">
+<div class="button button-3">
+  <a href="/farmerRegister">REGISTER AS A FARMER</a>
+</div>
+</div>
+<div class="wrapper"style="
+padding-bottom: 1980px;">
+<div class="spec ">
+  <h3>Farmers of the Week</h3>
+  <div class="ser-t">
+    <b></b>
+    <span><i></i></span>
+    <b class="line"></b>
+  </div>
+</div>
+<div class="one-half-column-left">
+  <h3 style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Bob_Wallace_300dpi_medium.png?v=1550271099" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h3>
+  <h5 style="text-align: center;">BOB WALLACE<br>Tyner, Saskatchewan</h5>
+  <p style="text-align: left;">Bob Wallace is a seventh-generation farmer working his family farm in Southwest Saskatchewan. Aldor Farms — named after Bob’s parents Allan and Dorothy Wallace — cultivate Red Spring wheat and Laird lentils. Aldor also operates a seed-cleaning facility that serves the region’s farmers.&nbsp;</p>
+  <meta charset="utf-8">
+  <h5><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Dwayne_84fe186b-a29e-458b-97c6-2454eb13b10d_medium.png?v=1550532590" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h5>
+  <h5 style="text-align: center;">DWAYNE WOOLHOUSE<br>Assiniboia, Saskatchewan</h5>
+  <p>Dwayne Woolhouse has been farming his land organically near Assiniboia, Saskatchewan for more than 40 years, cultivating land first farmed by his grandfather in 1911. Crestview grows durum, korasan (Kamut), spelt, flax, peas and red, black and French lentils.</p>
+  <p style="text-align: center;">&nbsp;</p>
+  <meta charset="utf-8">
+  <h5></h5>
+  <h5></h5>
+  <h1 style="text-align: left;"><img alt="" src="//cdn.shopify.com/s/files/1/0961/7326/files/Bernie_Ehnes_300dpi_medium.png?v=1550271078" style="float: none; display: block; margin-left: auto; margin-right: auto;"></h1>
+  <h5 style="text-align: center;">BERNIE EHNES<br>Etzikom, Alberta</h5>
+  <p style="text-align: left;">Bernie Ehnes, his wife Kary and their two children farm 2400 acres of certified organic ancient grains, rye, peas and spring wheat. Bernie is a third-generation farmer, working the same land his grandfather homesteaded in 1911 near Etzikom in southeastern Alberta. Bernie supplies Flourist with Organic Durum.</p>
+  <h3 style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Kyle_Friesen_300dpi_medium.png?v=1550271116" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h3>
+  <h5 style="text-align: center;">KYLE FRIESEN<br>Altona, Manitoba</h5>
+  <p style="text-align: left;">Kyle Friesen grows our Black Beans and Navy Beans for H&amp;M Farms near Altona, Manitoba. Manitoba, along with Ontario and Alberta, is a key bean growing region for Canada, where the temperature and moisture levels are just right. Melvin Penner has been farming beans and grains in Southern Manitoba since the 1970s and, now, with his nephew and son-in-law Kyle, runs H&amp;M Farms.</p>
+  <h3 style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Jamie_Draves_300dpi_medium.png?v=1550271131" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h3>
+  <h5 style="text-align: center;">JAMIE DRAVES<br>Iron Springs, Alberta</h5>
+  <p style="text-align: left;">Jamie Draves works with a co-operative network of farmers across the country who are growing our high protein Golden Quinoa. Our Golden Quinoa is sourced from a multi-generational family farm in Iron Springs Alberta. Currently, 80 acres of quinoa is grown each year. We selected the quinoa from Alberta specifically for its amazing size and sweet taste.&nbsp;&nbsp;</p>
+  <p style="text-align: left;">&nbsp;</p>
+</div>
+
+<div class="one-half-column-right">
+  <h3><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Christie_Whelan_300dpi_medium.png?v=1550271163" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h3>
+  <h5 style="text-align: center;">CHRISTIE WHELAN<br>Moose Jaw, Saskatchewan</h5>
+  <p style="text-align: left;">Christie Whelan grows our creamy Kabuli Chickpeas on 1400 acres south of Moose Jaw. He and his family are&nbsp;3rd generation farmers on the land. Christie is dedicated to improving soil health through zero tillage, cover cropping and companion cropping. They are working towards a sustainable non-chemical farming system. Our wildly popular chickpeas are grown without chemical inputs, and are free of herbicides, pesticides, fungicides, and granular fertilizer.</p>
+  <h3 style="text-align: left;"><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Brian_Schaaf_300dpi_medium.png?v=1550271227" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h3>
+  <h5 style="text-align: center;">BRIAN SCHAFF<br>Southey, Saskatchewan</h5>
+  <p style="text-align: left;">Brian&nbsp;is a first generation farmer. He bought his land near Southey, SK in 2007 and immediately transitioned it to an organic farm for the health of his soil and the health of his family. He grows Emmer (Farro), Wheat and Peas.</p>
+  <p style="text-align: left;">&nbsp;</p>
+  <h3 style="text-align: center;"><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Marc_L_Oiselle_300dpi_medium.png?v=1550271264" alt=""></h3>
+  <h5 style="text-align: center;">MARC LOISELLE<br>Vonda, Saskatchewan</h5>
+  <p style="text-align: left;">Marc Loiselle farms organically in Vonda, Saskatchewan on an idyllic 1400 acre farm. An intergenerational family farm, the Loiselle Organic Farm has been in the Loiselle family for 113 years. Marc is a tireless advocate for preserving landrace wheat varieties, including Red Fife, and Marquis wheat. He is also a member of the Slow Food movement.</p>
+  <h3 style="text-align: center;"><img alt="" src="//cdn.shopify.com/s/files/1/0961/7326/files/Lorne_Muller_300dpi_medium.png?v=1550271298" style="float: none;"></h3>
+  <h5 style="text-align: center;">
+    <span>LORNE MULLER</span><span> </span><br><span>Swan River Valley, Manitoba</span>
+  </h5>
+  <p style="text-align: left;"><span>Lorne Muller farms our Einkorn organically on Sinclair River Farms in the scenic</span><span> </span><span>Swan River Valley of Manitoba. A third-generation farm, the Mullers farm on the</span><span> </span><span>belief that the #1 resource as farmers is the soil.</span><span> </span><span>Sinclair River Farms uses a</span><span> </span><span>regenerative approach to farming, with a focus on building the soil health over the</span><span> </span><span>past 15 years. </span><span> </span></p>
+  <meta charset="utf-8">
+  <h3><img src="//cdn.shopify.com/s/files/1/0961/7326/files/Will_Robbins_300dpi_medium.png?v=1550271147" alt="" style="display: block; margin-left: auto; margin-right: auto;"></h3>
+  <h5 style="text-align: center;">WILL ROBBINS <br>Laura, Saskatchewan</h5>
+  <p>Will Robbins farms our beautiful French Lentils and Red Spring Wheat on his organic farm in Laura, Saskatchewan, a small prairie town about 40 minutes south of Saskatoon. Maida Vale Farms was one of the first certified organic grain and bean farms in the region, and Will's parents have been instrumental in the organic movement within the farming community in Saskatchewan.</p>
+  <meta charset="utf-8">
+  <h5 style="text-align: left;"></h5>
+  <p style="text-align: left;">&nbsp;</p>
+</div>
+</div>
+
+
+{% endblock %}
