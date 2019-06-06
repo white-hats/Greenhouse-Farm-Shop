@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title></title>
+    <link href="{{ url_for('static', filename='upload/style.css')}}" rel='stylesheet' type='text/css'/>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
+  </head>
+  <body>
+      <div class="Heading" id="Heading">
+      RESET PASSWORD
+      </div>
+
+      <div class="element-main">
+    		<h1>Forgot Password</h1>
+    		<p> No Worries. Enter your email and we will send you a reset .</p>
+    		<form>
+    			<input type="text" value="Your e-mail address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your e-mail address';}">
+    			<input type="submit" value="Reset my Password">
+    		</form>
+    	</div>
+
+  </body>
+</html>

@@ -1,0 +1,103 @@
+{% extends 'layout_upload.html' %}
+
+{% block body %}
+<script type="text/javascript">
+$(document).ready(function () {
+  $("#category").change(function () {
+    var val = $(this).val();
+    if (val == "FRUITS") {
+      $("#fcategory").html("<option>--Select Fruit Category--</option><option> Citrus </option><option> Tropical and Exotic </option><option> Berries </option>");
+    } else if (val == "VEGETABLES") {
+      $("#fcategory").html("<option>--Select Vegetables Category--</option><option> Leafy Vegetables </option><option>Root Vegetables </option><option> Others</option>");
+    } else if (val == "LEGUMES AND GRAINS") {
+      $("#fcategory").html("<option>--Select Grains Category</option><option>Legumes</option><option>Cereals and Grains</option>");
+    }
+  });
+  $(document).ready(function () {
+    $("#fcategory").change(function () {
+      var val = $(this).val();
+      if (val == "Citrus") {
+        $("#ffcategory").html("<option>--Select Fruit--</option><option>Oranges</option> <option>Grapefruit</option> <option>Lime</option> <option>Lemon</option> <option>Tangerine</option> <option>Pomelo</option> <option>Mandarin</option> <option>Orange</option><option> ");
+      }
+      else if (val == "Berries") {
+        $("#ffcategory").html("<option>--Select Fruit--</option>Strawberries<option>Blackberry</option>Black Raspberry<option>Blueberry</option><option>Cranberry</option><option>Huckleberry</option><option>Gooseberry</option><option>Elderberry</option><option>Lingonberry</option><option>Raspberry</option><option>Salmonberries</option><option>White Mulberry</option>");
+      }
+      else if (val == "Tropical and Exotic") {
+        $("#ffcategory").html("<option>--Select Fruit--</option>Cherimoya<option>Mango</option>Banana<option>Miracle Fruit</option><option>Guava</option><option>Pineapple</option><option>Apple</option><option>Water Melon</option><option>Grapes</option><option>Avocado</option><option>Kiwi</option><option>Tomatoes</option>");
+      }
+      else if (val == "Leafy Vegetables") {
+        $("#ffcategory").html("<option>--Select Vegetable--</option><option>Lettuce</option><option>Spinach</option><option>Cabbage</option><option>broccoli</option><option>Asparagus</option><option>Kale</option><option>Water Cress</option><option>White Cauliflower</option>")
+      }
+      else if (val == "Others") {
+        $("#ffcategory").html("<option>--Select Vegetable--</option><option>Tomatoes</option><option>Red Pepper</option><option>Green Pepper</option><option>Eggplant</option><option>Green Peas</option><option>Beans</option>")
+      }
+      else if (val == "Root Vegetables") {
+        $("#ffcategory").html("<option>--Select Vegetable--</option><option>Carrot</option><option>Onions</option><option>Sweet Potatoes</option><option>Turnips</option><option>Ginger</option><option>Beets</option><option>Potatoes</option><option>Celeriac</option><option>Fennel</option><option>Radish</option>")
+      }
+      else if (val == "Legumes") {
+        $("#ffcategory").html("<option>--Select Grain--</option><option>Alfalfa</option><option>Clover</option><option>Peas</option><option>Chickpeas</option><option>Lentils</option><option>Lupin Bean</option><option>Soybeans</option><option>Peanuts</option><option>Carob</option><option>Tamarind</option>")
+
+      }
+      else if (val == "Cereals and Grains") {
+        $("#ffcategory").html("<option>--Select Grain--</option><option>Corn</option><option>Oat</option><option>Rice</option><option>Spelt</option><option>Wheat</option><option>Millet</option><option>Rye</option><option>Barley</option><option>Buckwheat</option><option>Maize</option><option>Amaranthus</option><option>Sorghum</option>")
+      }
+    });
+  });
+});
+</script>
+<script type="text/javascript">
+$("#choice1").change(function () {
+  if (typeof $(this).data('options') === "undefined") {
+    /*Taking an array of all options-2 and kind of embedding it on the select1*/
+    $(this).data('options', $('#choice2 option').clone());
+  }
+  var id = $(this).val();
+  var options = $(this).data('options').filter('[data-option=' + id + ']');
+  $('#choice2').html(options);
+  //Refresh #choice2 to show the new values
+  $('#choice2').selectpicker('refresh');
+});
+</script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 register-left">
+      <img src="{{ url_for('static', filename='upload/icon.png')}}">
+      <h3>UPLOAD YOUR PRODUCTS</h3>
+      <p>Upload your greenhouse products and fill in the necessary details.</p>
+      <button type="button"class="btn btn-primary">HOME</button>
+    </div>
+
+    <div class="col-md-7 register-right" id="page1">
+      <h2>PRODUCTS</h2>
+      <div class ="register-form">
+        {% from "includes/_formhelpers.html" import render_field %}
+        <div class="form-group">
+          <select id ="category">
+            <option>--Select Product Category--</option>
+            {{render_field(uploadform.ProductCategory)}}
+            <option> FRUITS </option>
+            <option> VEGETABLES </option>
+            <option> LEGUMES AND GRAINS </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select id ="fcategory" placeholder=""></select>
+        </div>
+        <div class="form-group">
+          <select id ="ffcategory"></select>
+        </div>
+        <div class="form-group">
+          <select id="cur">
+            <option>GH₵</option><option>$</option>
+            <input type="number"placeholder="Price per product"id="price" min="1" step="any" />
+          </div>
+          <div class="form-group">
+            <input type="number"placeholder="Enter the number of stocks"id="ffcategory" min="1" step="any" />
+          </div>
+          <button type="button" id="nextpage"class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
