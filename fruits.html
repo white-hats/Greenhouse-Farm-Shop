@@ -1,0 +1,1081 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- Carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a><img class="first-slide" src="{{ url_for('static', filename='images/fruitsbanner.jpg')}}" alt="First slide"></a>
+
+    </div>
+    <div class="item">
+      <a><img class="second-slide " src="{{ url_for('static', filename='images/fruitsbanner1.jpg')}}" alt="Second slide"></a>
+
+    </div>
+    <div class="item">
+      <a><img class="third-slide " src="{{ url_for('static', filename='images/fruitsbanner2.jpg')}}" alt="Third slide"></a>
+
+    </div>
+  </div>
+
+</div><!-- /.carousel -->
+
+<!--content-->
+<div class="kic-top ">
+  <div class="container ">
+    <div class="kic ">
+      <h3>Popular Categories</h3>
+
+    </div>
+    <div class="col-md-4 kic-top1">
+      <a href="#citrus">
+        <img src="{{ url_for('static', filename='images/citrus.jpg')}}" class="img-responsive" alt="">
+      </a>
+      <h6>Citrus Fruits</h6>
+      <p></p>
+    </div>
+    <div class="col-md-4 kic-top1">
+      <a href="#tropical">
+        <img src="{{ url_for('static', filename='images/Banana.jpg')}}" class="img-responsive" alt="">
+      </a>
+      <h6>Tropical and Exotic</h6>
+      <p></p>
+    </div>
+    <div class="col-md-4 kic-top1">
+      <a href="#berries">
+        <img src="{{ url_for('static', filename='images/berries.jpg')}}" class="img-responsive" alt="">
+      </a>
+      <h6>Berries</h6>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<!--content-->
+<div class="product">
+  <div class="container">
+    <div class="spec ">
+      <h3>Most Sold Products</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+    <div class=" con-w3l agileinf">
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Strawberries.jpg')}}" id="Strawberries" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Strawberries</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Wheat" data-summary="summary 24" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of24.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+            <img src="{{ url_for('static', filename='images/mango.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Mango</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="25" data-name="Peach Halves" data-summary="summary 25" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of25.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+            <img src="{{ url_for('static', filename='images/of8.png')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Banana</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="26" data-name="Banana" data-summary="summary 26" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of8.png')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Orange.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Oranges</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice" data-summary="summary 27" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of27.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Pineapples.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Pineapple</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="28" data-name="Oil" data-summary="summary 28" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of28.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+            <img src="{{ url_for('static', filename='images/apple.jpg')}}" id="apple" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Apple</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="29" data-name="Biscuits" data-summary="summary 29" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of29.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+            <img src="{{ url_for('static', filename='images/watermelon.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Water Melon</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="30" data-name="Nuts" data-summary="summary 30" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of30.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Grapes.jpg')}}" id="grapes" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Grapes</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="31" data-name="Rice" data-summary="summary 31" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of31.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Avocado.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Avocado</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="32" data-name="Noodles" data-summary="summary 32" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of32.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Kiwi.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Kiwi</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="33" data-name="Tea" data-summary="summary 33" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of33.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
+            <img src="{{ url_for('static', filename='images/lemon.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Lemon</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="34" data-name="Seafood" data-summary="summary 34" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of34.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+            <img src="{{ url_for('static', filename='images/tomatoes.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Tomatoes</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="35" data-name="Tomatoes" data-summary="summary 35" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/tomatoes.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="product">
+  <div class="container">
+    <a id="citrus"></a>
+    <div class="spec ">
+      <h3>Citrus</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+    <div class=" con-w3l agileinf">
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+            <img src="{{ url_for('static', filename='images/grapefruit.jpg')}}" id="Strawberries" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">GrapeFruit</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Wheat" data-summary="summary 24" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of24.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+            <img src="{{ url_for('static', filename='images/lime.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Lime</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="25" data-name="Peach Halves" data-summary="summary 25" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of25.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+            <img src="{{ url_for('static', filename='images/lemon.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Lemon</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="26" data-name="Banana" data-summary="summary 26" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of26.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Orange.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Oranges</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice" data-summary="summary 27" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of27.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+            <img src="{{ url_for('static', filename='images/tangerine.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Tangerine</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="28" data-name="Oil" data-summary="summary 28" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of28.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+            <img src="{{ url_for('static', filename='images/pomelo.jpg')}}" id="apple" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Pomelo</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="29" data-name="Biscuits" data-summary="summary 29" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of29.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+            <img src="{{ url_for('static', filename='images/mandarin.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Mandarin Orange</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="30" data-name="Nuts" data-summary="summary 30" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of30.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+<div class="product">
+  <div class="container">
+    <a id="tropical"></a>
+    <div class="spec ">
+      <h3>Tropical and Exotic</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+    <div class=" con-w3l agileinf">
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+            <img src="{{ url_for('static', filename='images/cherimoya.jpg')}}" id="Strawberries" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Cherimoya</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Wheat" data-summary="summary 24" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of24.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+            <img src="{{ url_for('static', filename='images/mango.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Mango</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="25" data-name="Peach Halves" data-summary="summary 25" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of25.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+            <img src="{{ url_for('static', filename='images/of8.png')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Banana</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="26" data-name="Banana" data-summary="summary 26" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of8.png')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+            <img src="{{ url_for('static', filename='images/miraclefruit.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Miracle Fruit</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice" data-summary="summary 27" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of27.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+            <img src="{{ url_for('static', filename='images/guava.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Guava</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice" data-summary="summary 27" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of27.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Pineapples.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Pineapple</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="28" data-name="Oil" data-summary="summary 28" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of28.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+            <img src="{{ url_for('static', filename='images/apple.jpg')}}" id="apple" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Apple</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="29" data-name="Biscuits" data-summary="summary 29" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of29.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+            <img src="{{ url_for('static', filename='images/watermelon.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Water Melon</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="30" data-name="Nuts" data-summary="summary 30" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of30.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Grapes.jpg')}}" id="grapes" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Grapes</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="31" data-name="Rice" data-summary="summary 31" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of31.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Avocado.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Avocado</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="32" data-name="Noodles" data-summary="summary 32" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of32.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Kiwi.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Kiwi</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="33" data-name="Tea" data-summary="summary 33" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of33.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+            <img src="{{ url_for('static', filename='images/tomatoes.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Tomatoes</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="35" data-name="Tomatoes" data-summary="summary 35" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/tomatoes.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+<div class="product">
+  <div class="container">
+    <a id="berries"></a>
+    <div class="spec ">
+      <h3>Berries</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+    <div class=" con-w3l agileinf">
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+            <img src="{{ url_for('static', filename='images/Strawberries.jpg')}}" id="Strawberries" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Strawberries</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Wheat" data-summary="summary 24" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of24.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+            <img src="{{ url_for('static', filename='images/blackberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Blackberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="25" data-name="Peach Halves" data-summary="summary 25" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of25.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+            <img src="{{ url_for('static', filename='images/blackraspberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Black Raspberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="26" data-name="Banana" data-summary="summary 26" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of26.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+            <img src="{{ url_for('static', filename='images/blueberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Blueberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice" data-summary="summary 27" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of27.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+            <img src="{{ url_for('static', filename='images/cranberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Cranberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="28" data-name="Oil" data-summary="summary 28" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of28.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+            <img src="{{ url_for('static', filename='images/huckleberry.jpg')}}" id="apple" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Huckleberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="29" data-name="Biscuits" data-summary="summary 29" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of29.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+            <img src="{{ url_for('static', filename='images/gooseberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Gooseberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="30" data-name="Nuts" data-summary="summary 30" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of30.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+            <img src="{{ url_for('static', filename='images/elderberry.jpg')}}" id="grapes" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Elderberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="31" data-name="Rice" data-summary="summary 31" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/of31.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+            <img src="{{ url_for('static', filename='images/lingonberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Lingonberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵7.00</label><em class="item_price">GH₵6.00</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="32" data-name="Noodles" data-summary="summary 32" data-price="6.00" data-quantity="1" data-image="{{ url_for('static', filename='images/of32.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+            <img src="{{ url_for('static', filename='images/raspberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Raspberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵5.00</label><em class="item_price">GH₵4.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="33" data-name="Tea" data-summary="summary 33" data-price="4.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of33.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
+            <img src="{{ url_for('static', filename='images/salmonberries.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">Salmonberries</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵4.00</label><em class="item_price">GH₵3.50</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="34" data-name="Seafood" data-summary="summary 34" data-price="3.50" data-quantity="1" data-image="{{ url_for('static', filename='images/of34.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pro-1">
+        <div class="col-m">
+          <a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+            <img src="{{ url_for('static', filename='images/mulberry.jpg')}}" class="img-responsive" alt="">
+          </a>
+          <div class="mid-1">
+            <div class="single">
+              <h6><a href="single.html">White Mulberry</a></h6>
+            </div>
+            <div class="mid-2">
+              <p ><label>GH₵1.00</label><em class="item_price">GH₵0.80</em></p>
+              <div class="block">
+                <div class="starbox small ghosting"> </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="add">
+              <button class="btn btn-danger my-cart-btn my-cart-b" data-id="35" data-name="Tomatoes" data-summary="summary 35" data-price="0.80" data-quantity="1" data-image="{{ url_for('static', filename='images/tomatoes.jpg')}}" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!-- product -->
+
+{% include 'includes/footer.html' %}
+{% endblock %}
